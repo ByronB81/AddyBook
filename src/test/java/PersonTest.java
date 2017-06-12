@@ -24,7 +24,19 @@ public class PersonTest {
     Person testPerson = new Person("Byron","3017 NE Hoyt St","Portland",97232,626,2508882);
     String expectedOutput = "Portland";
     assertEquals(expectedOutput, testPerson.getCity());
-
   }
 
+  @Test
+  public void getZipCode_shouldReturnZipCode_int() {
+    Person testPerson = new Person("Byron","3017 NE Hoyt St","Portland",97232,626,2508882);
+    int expectedOutput = 97232;
+    assertEquals(expectedOutput, testPerson.getZipCode());
+  }
+
+  @Test
+  public void getAreaCode_shouldReturnAreaCode_int() {
+    Person testPerson = new Person("Byron","3017 NE Hoyt St","Portland",97232,626,2508882);
+    int expectedOutput = 626;
+    assertEquals(expectedOutput, testPerson.getAreaCode());
+  }
 }

@@ -26,4 +26,12 @@ public class Person {
   public String getCity() {
     return this.city;
   }
+
+  public int getZipCode() {
+    return this.zip;
+  }
+
+  public int getAreaCode() {
+    return this.areaCode;
+  }
 }
