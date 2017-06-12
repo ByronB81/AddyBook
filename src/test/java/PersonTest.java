@@ -19,11 +19,12 @@ public class PersonTest {
     assertEquals(expectedOutput, testPerson.getAddress());
   }
 
-  // @Test
-  // public void Person_name_String(){
-  //   Person testPerson = new Person("Byron","3017 NE Hoyst","Portland",97232,626,2508882);
-  //   String expectedOutput = "Byron";
-  //   assertEquals(expectedOutput, testPerson.name);
-  // }
+  @Test
+  public void getCity_shouldReturnCity_String() {
+    Person testPerson = new Person("Byron","3017 NE Hoyt St","Portland",97232,626,2508882);
+    String expectedOutput = "Portland";
+    assertEquals(expectedOutput, testPerson.getCity());
+
+  }
 
 }

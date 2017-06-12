@@ -22,4 +22,8 @@ public class Person {
   public String getAddress() {
     return this.address;
   }
+
+  public String getCity() {
+    return this.city;
+  }
 }
