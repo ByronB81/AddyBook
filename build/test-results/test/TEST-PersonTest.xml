@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PersonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-12T20:56:27" hostname="Byrons-MBP.domain" time="0.001">
+  <properties/>
+  <testcase name="Person_name_String" classname="PersonTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
