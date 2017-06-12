@@ -39,4 +39,11 @@ public class PersonTest {
     int expectedOutput = 626;
     assertEquals(expectedOutput, testPerson.getAreaCode());
   }
+
+  @Test
+  public void getPhone_shouldReturnPhoneNumber_int() {
+    Person testPerson = new Person("Byron","3017 NE Hoyt St","Portland",97232,626,2508882);
+    int expectedOutput = 2508882;
+    assertEquals(expectedOutput, testPerson.getPhone());
+  }
 }

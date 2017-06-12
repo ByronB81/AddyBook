@@ -4,7 +4,7 @@ public class Person {
   private String city;
   private int zip;
   private int areaCode;
-  private long phone;
+  private int phone;
 
   public Person(String inputName, String inputAddress, String inputCity, int inputZip, int inputAreaCode, int inputPhone) {
     this.name = inputName;
@@ -33,5 +33,9 @@ public class Person {
 
   public int getAreaCode() {
     return this.areaCode;
+  }
+
+  public int getPhone() {
+    return this.phone;
   }
 }
