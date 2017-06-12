@@ -14,4 +14,12 @@ public class Person {
     this.areaCode = inputAreaCode;
     this.phone = inputPhone;
   }
+
+  public String getName(){
+    return this.name;
+  }
+
+  public String getAddress() {
+    return this.address;
+  }
 }
